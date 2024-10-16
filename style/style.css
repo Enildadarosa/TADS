@@ -4,7 +4,7 @@
 @import url("projetos.css");
 @import url("time.css");
 @import url("SOBRE.CSS");
-
+@import url("acoes.css");
 :root {
     --color-primary-1: #fff9ea;
     --color-primary-2: #46c7c7;

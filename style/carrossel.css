@@ -43,7 +43,7 @@ section.slider{
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid var(--color-primary-10);
+    border: 1px solid var(--color-primary-1);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -55,11 +55,11 @@ section.slider{
 }
 
 .nav-manual .manual-btn:hover{
-    background-color: var(--color-primary-10);
+    background-color: var(--color-primary-1);
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color:var(--color-primary-10);
+    background-color:var(--color-primary-1);
 }
 
 #radio1:checked ~ .primeiro{
