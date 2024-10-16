@@ -25,7 +25,7 @@
 .acoes-card {
     display: flex;
     height: 380px;
-    width: 300px;
+    width: 350px;
     background-color: #1e41bb;
     border-radius: 10px;
     box-shadow: -1rem 0 3rem #00000044;
@@ -36,7 +36,7 @@
     margin-bottom: 50px;
  }
 .acoes-card:not(:first-child) {
-    margin-left: -20px;
+    margin-left: -15px;
 }
 .acoes-card:hover {
     transform: translateY(-20px);
@@ -50,7 +50,7 @@
     transition: 0.4s ease-out;
 }
 .area-img-acoes{
-    width: 300px;
+    width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
