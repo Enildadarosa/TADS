@@ -1,0 +1,71 @@
+.contato{
+    display: flex;
+    width: 100vw;
+}
+.areafooter{
+    width: 100vw;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dadosfooter{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px;
+}
+.titulo-footer{
+    font-size: 2rem;
+    color: rgb(4, 4, 82);
+}
+.text-dados{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.facul{
+    font-size: 1.7rem;
+    color: rgb(3, 61, 3);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.area-redes-social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    /* background-color: chartreuse; */
+}
+.insta, .watts{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.qr-code-insta, .qr-code-whatts{
+    width: 150px;
+    
+}
+.fa-brands{
+    font-size: 150px;
+}
+.icon-redes-insta{
+    color: darkmagenta;
+}
+.icon-redes-whatts{
+    color: forestgreen;
+}
+.todos-redes{
+    display: flex;
+}
